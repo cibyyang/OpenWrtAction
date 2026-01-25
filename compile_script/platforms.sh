@@ -11,9 +11,9 @@ immortalwrt_value='{"REPO_URL": "https://github.com/immortalwrt/immortalwrt.git"
 lede_value='{"REPO_URL": "https://github.com/coolsnowwolf/lede","REPO_BRANCH": "master","CONFIGS": "config/leanlede_config","DIY_P1_SH": "diy_script/lean_diy/diy-part1.sh","DIY_P2_SH": "diy_script/lean_diy/diy-part2.sh","DIY_P3_SH": "diy_script/lean_diy/diy-part3.sh","OS": "ubuntu-latest"}'
 
 
-openwrt_platforms=(X86)
+openwrt_platforms=()
 
-immortalwrt_platforms=(X86)
+immortalwrt_platforms=()
 
 lede_platforms=(H69K)
 
