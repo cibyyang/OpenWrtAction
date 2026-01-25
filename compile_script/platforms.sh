@@ -18,7 +18,7 @@ immortalwrt_platforms=()
 lede_platforms=(H69K)
 
 
-copy_backgroundfiles_platforms=(X86 H69K)
+copy_backgroundfiles_platforms=(H69K)
 
 matrix_json="["
 source_matrix_json="["
