@@ -13,7 +13,10 @@
 
 attempts=$1
 
-
+set -e
+if [ $attempts -eq 3 ]; then
+  make -j$(nproc) V=s \
+    package/feeds/qmodem/application/quectel_CM_5G_M/compile
 
 # set -e
 # if [ $attempts -eq 3 ]; then
@@ -41,4 +44,5 @@ attempts=$1
 #     package/custom_packages/netspeedtest/luci-app-netspeedtest/compile
 # fi
 
-echo "DiY script part 3: is Disabled"
+# echo "DiY script part 3: is Disabled"
+echo "DiY script part 3: is Finished"
