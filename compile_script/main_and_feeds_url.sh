@@ -14,6 +14,7 @@ declare -a feeds_REPO_URLS=(
     "https://github.com/Openwrt-Passwall/openwrt-passwall2"
     "https://github.com/vernesong/OpenClash"
     "https://github.com/nikkinikki-org/OpenWrt-nikki"
+    "https://github.com/FUjr/QModem"
 )
 
 declare -a custompackages_REPO_URLS=(
